@@ -58,7 +58,7 @@ export const DropdownNav = ({ isOpen, toggle }) => {
       </List>
       <ResumeWrapper>
         <a
-          href="https://drive.google.com/file/d/1u-ELeSqonNLdA6bsyOaV_Ei_lN6zvHk-/view?usp=sharing"
+          href="https://drive.google.com/file/d/1c_AmHb_5rFoZEHPAGtKVrp9Ge-NpvZVD/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           style={{ all: "none" }}
