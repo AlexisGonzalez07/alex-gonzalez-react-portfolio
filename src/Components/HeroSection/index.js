@@ -6,8 +6,10 @@ import {
   TextSection,
   HeroH1,
   HeroP,
-  HeroSubP
+  HeroSubP,
+  ButtonWrapper
 } from "./HeroElements";
+import {Button} from '../ButtonElement'
 export const HeroSection = () => {
   return (
     <MainContainer id='Welcome'>
@@ -20,6 +22,9 @@ export const HeroSection = () => {
         <HeroH1>Alex Gonzalez</HeroH1>
         <HeroP>React Software Developer</HeroP>
         <HeroSubP>With a touch of Business Analytics, Data Modeling, Supply Chain, and Finance</HeroSubP>
+        <ButtonWrapper>
+        <Button as='a' href='https://github.com/AlexisGonzalez07/alex-gonzalez-react-portfolio' target='_blank'>Portfolio Source Code</Button>
+        </ButtonWrapper>
       </TextSection>
     </MainContainer>
   );

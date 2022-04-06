@@ -87,6 +87,7 @@ export const HeroSubP = styled.p`
   max-width: 70%;
   letter-spacing: .1px;
   line-height: 1.4;
+  margin-bottom: 10px;
 
   @media screen and (max-width: 768px) {
     font-size: 20px;
@@ -95,3 +96,34 @@ export const HeroSubP = styled.p`
     font-size: 14px;
   }
 `
+
+export const ButtonWrapper = styled.div`
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  display: flex;
+  font-size: 20px;
+
+
+  /* Small laptops*/
+  @media screen and (max-width: 1100px) {
+    font-size: 20px;
+  }
+
+  /* Tablets*/
+  @media screen and (max-width: 992px) {
+    font-size: 18px;
+  }
+
+  /* Large smartphones */
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+    letter-spacing: .1px;
+  }
+
+  /* Small smartphones */
+  @media screen and (max-width: 576px) {
+    font-size: 16px;
+    letter-spacing: .1px;
+  }
+`;
