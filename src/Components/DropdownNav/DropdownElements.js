@@ -15,7 +15,7 @@ export const DropdownWrapper = styled.div`
     height: 100%;
     display: grid;
     align-items: center;
-    grid-template-columns: repeat (4, 1fr);
+    grid-template-columns: repeat (6, 1fr);
     grid-auto-rows: minmax(100px, auto);
     // grid-gap: 10px;
     grid-template-areas:
@@ -57,9 +57,7 @@ export const List = styled.div`
   @media screen and (max-width: 992px) {
     grid-area: list;
     justify-content: center;
-    // padding: 30px;
     display: grid;
-    grid-gap: 10px;
     text-align: center;
   }
 `;
@@ -86,23 +84,5 @@ justify-content: center;
 align-items: center;
 display: grid;
 grid-area: button;
-margin-top: 35px;
-`
-
-export const ResumeBtn = styled.button`
-background: none;
-padding: 4px 8px;
-margin: 0 0;
-color: white;
 font-size: 24px;
-
-border: 2px solid white;
-border-radius: 3px;
-cursor: pointer;
-:hover{
-  color: #B8AAB9;
-  transition: 200 ease-in-out;
-
-    border: 3px solid #B8AAB9;
-}
 `

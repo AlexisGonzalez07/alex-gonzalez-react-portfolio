@@ -7,8 +7,8 @@ import {
   List,
   DropDownLink,
   ResumeWrapper,
-  ResumeBtn,
 } from "./DropdownElements";
+import { Button } from "../ButtonElement";
 import { MdCloseFullscreen } from "react-icons/md";
 export const DropdownNav = ({ isOpen, toggle }) => {
   const toggleHome = () => {
@@ -57,14 +57,7 @@ export const DropdownNav = ({ isOpen, toggle }) => {
         </DropDownLink>
       </List>
       <ResumeWrapper>
-        <a
-          href="https://drive.google.com/file/d/1c_AmHb_5rFoZEHPAGtKVrp9Ge-NpvZVD/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ all: "none" }}
-        >
-          <ResumeBtn>Resume</ResumeBtn>
-        </a>
+        <Button as='a' href='https://drive.google.com/file/d/1c_AmHb_5rFoZEHPAGtKVrp9Ge-NpvZVD/view?usp=sharing' target='_blank'>Resume</Button>
       </ResumeWrapper>
     </DropdownWrapper>
   );

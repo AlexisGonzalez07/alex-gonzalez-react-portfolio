@@ -93,6 +93,8 @@ color: white;
 border: 2px solid white;
 border-radius: 3px;
 cursor: pointer;
+box-shadow: 2px 2px 5px #aaaaaa;
+
 :hover{
     border: 3px solid #B8AAB9;
 }
