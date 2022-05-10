@@ -19,7 +19,7 @@ It's been 8 months `(as of April 2022)` since I decided I would learn to code, a
 
 Portfolio 1: https://alexisgonzalez07.github.io/Alex-Gonzalez-Personal-Portfolio/ <br>
 Portfolio 2: https://alex-gonzalez-portfolio-beta.netlify.app/<br>
-Portfolio 3: You're reading the ReadMe to it <br>
+Portfolio 3: [VIEW LIVE APPLICATION](https://alex-gonzalez-portfolio.netlify.app/) <br>
 Portfolio 4: Coming Soon <br>
 
 
