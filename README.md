@@ -15,11 +15,11 @@ This app was designed to be light on the eyes thanks to the dark-mode lover in m
 There was a lot of time invested into making the site look appealing for big screens `(greater than 1100px)`, medium screens `(1100px to 992px)`, tablets `(992px to 768px)`, large phones `(768px to 576px)`, and smaller devices `(the rest)`. Max-widths, grid-template-areas, and flex-directions were adjusted for all components. You can view examples of grid-area manipulation for smaller screens under the AboutSection and EducationSection component folders. Examples of flexbox manipulation using media queries are present under the ProjectSection component folder.
 
 ## Growth
-It's been 8 months `(as of April 2022)` since I decided I would learn to code, and I'm not ashamed to share my previous portfolios so you can see first-hand how far I've come as a developer, although I still have a long way to go.
+It's been 10 months `(as of May 2022)` since I decided I would learn to code, and I'm not ashamed to share my previous portfolios so you can see first-hand how far I've come as a developer, although I still have a long way to go.
 
 Portfolio 1: https://alexisgonzalez07.github.io/Alex-Gonzalez-Personal-Portfolio/ <br>
 Portfolio 2: https://alex-gonzalez-portfolio-beta.netlify.app/<br>
-Portfolio 3: You're reading the ReadMe to it <br>
+Portfolio 3: [VIEW LIVE APPLICATION](https://alex-gonzalez-portfolio.netlify.app/) <br>
 Portfolio 4: Coming Soon <br>
 
 

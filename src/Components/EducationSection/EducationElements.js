@@ -44,7 +44,7 @@ max-width: 1300px;
 margin-right: 5px;
 padding: 10px;
 border-bottom: 2px solid white;
-justify-content: end;
+justify-content: start;
 `
 export const SectionHeader = styled.h1`
 display: flex;
