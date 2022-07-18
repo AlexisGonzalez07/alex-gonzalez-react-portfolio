@@ -57,7 +57,7 @@ export const DropdownNav = ({ isOpen, toggle }) => {
         </DropDownLink>
       </List>
       <ResumeWrapper>
-        <Button as='a' href='https://drive.google.com/file/d/15Mqb9s3348otGJMfmMp9onwm1jL02gSP/view?usp=sharing' target='_blank'>Resume</Button>
+        <Button as='a' href='https://drive.google.com/file/d/1vROJnp4cLr7hc0X4GhUaZxTr4sFw_dSZ/view?usp=sharing' target='_blank'>Resume</Button>
       </ResumeWrapper>
     </DropdownWrapper>
   );

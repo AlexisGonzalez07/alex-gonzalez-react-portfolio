@@ -20,8 +20,8 @@ export const HeroSection = () => {
       </MainBackground>
       <TextSection>
         <HeroH1>Alex Gonzalez</HeroH1>
-        <HeroP>React Software Developer</HeroP>
-        <HeroSubP>With a touch of Business Analytics, Data Modeling, Supply Chain, and Finance</HeroSubP>
+        <HeroP>Software Engineer</HeroP>
+        <HeroSubP>Python, JavaScript, & MySQL Developer</HeroSubP>
         <ButtonWrapper>
         <Button as='a' href='https://github.com/AlexisGonzalez07/alex-gonzalez-react-portfolio' target='_blank'>Portfolio Source Code</Button>
         </ButtonWrapper>
