@@ -4,7 +4,7 @@ export const sectionOne = {
     header: "Who Am I?",
     subtitle: "Results, Not Promises",
     content:
-      "Passionate and solutions-driven Full Stack Web Developer with a background in data modeling, optimization, and inventory management. Looking to develop autonomous business management solutions and improve current database management systems. Driven, collaborative, and effective leader with a proven ability to thrive in team environments. My most recent project was a plant tracking application built using MongoDB, React, and GraphQL. Hoping to leverage my software and business skills to create innovative tools.",
+      "Solutions-driven Software Engineer that is fascinated with collaborating with others who share a can-do culture. Experienced working with languages/frameworks such as JavaScript, Python, MySQL, and React on applications with responsibilities such as database management, API design, front-end data processing, data visualization, algorithmic solving, automation, and view organization. Excited to develop user-focused experiences and create transformative business solutions through the power of code.",
     svgfirst: true,
   };
   
@@ -14,7 +14,7 @@ export const sectionOne = {
     header: "Career Aspirations",
     subtitle: "How ambitious am I?",
     content:
-      "They say Rome wasn't built overnight, but I'm not afraid to start building. Within the tech industry, I aspire to become a senior software developer by the end of 2025. In the meantime, I anticipate obtaining certifications as an AWS Cloud Practicioner, Certified Financial Analyst, and Project Manager. In the long-term, I will be a mentor to other first-generation Mexican Americans with a dream. I hope to call them fellow CEOs.",
+      "They say Rome wasn't built overnight, but I'm not afraid to start building. Within the tech industry, I aspire to become a senior software developer by the end of 2025. I'm passionate about teaching/learning software development and supporting the team around me with empathy. I'm currently a tutor for upcoming web developers helping them understand and use concepts related to database management with MongoDB or MySQL, React framework, Model View Controller (MVC) design, and application deployment. In the long-term, I will be a mentor to other first-generation Mexican Americans with a dream. I hope to call them fellow CEOs.",
     svgfirst: false,
   };
   
