@@ -1,4 +1,14 @@
 export const cardOneInfo = {
+  title: "Sudoku Solver",
+  description: "Python, OOP",
+  line: "An object-oriented approach to solving a Sudoku Puzzle that uses three algorithms to find the most efficient solution",
+  img: require("../../Gifs/NoteTakerApp.gif"),
+  alt: "A peek at the Source Code for the solver",
+  website: "https://github.com/AlexisGonzalez07/SudokuTorture",
+  repo: "https://github.com/AlexisGonzalez07/SudokuTorture",
+}
+
+export const cardTwoInfo = {
     title: "Plant Buddy",
     description: "React, MongoDB, GraphQL",
     line:
@@ -9,7 +19,7 @@ export const cardOneInfo = {
     repo: "https://github.com/AlexisGonzalez07/PlantHub",
   };
   
-  export const cardTwoInfo = {
+  export const cardThreeInfo = {
     title: "Express Gym",
     description: "Handlebars, MySQL, Express.js",
     line:
@@ -20,7 +30,7 @@ export const cardOneInfo = {
     repo: "https://github.com/AlexisGonzalez07/express.gym",
   };
   
-  export const cardThreeInfo = {
+  export const cardFourInfo = {
     title: "Retail Therapy",
     description: "HTML, Javascript, API",
     line:
@@ -30,14 +40,3 @@ export const cardOneInfo = {
     website: "https://mitchell-est-robbins.github.io/Project1-TheAppenders/",
     repo: "https://github.com/AlexisGonzalez07/Retail-Therapy",
   };
-  
-  export const cardFourInfo = {
-    title: "Note Taker App",
-    description: "Handlebars, RESTful API, CSS",
-    line: "An app made for users looking to keep track of pending tasks, store notes and important information, or improve his/her/their organization",
-    img: require("../../Gifs/NoteTakerApp.gif"),
-    alt: "Looping gif of Note Taker App website",
-    website: "https://notatakingapplication.herokuapp.com/",
-    repo: "https://github.com/AlexisGonzalez07/NoteTakingFullStackApplication",
-  };
-  
