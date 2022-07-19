@@ -1,5 +1,5 @@
 export const cardOneInfo = {
-  title: "Sudoku Solver",
+  title: "Sudoku Torture",
   description: "Python, OOP",
   line: "An object-oriented approach to solving a Sudoku Puzzle that uses three algorithms to find the most efficient solution",
   img: require("../../Gifs/NoteTakerApp.gif"),
@@ -37,6 +37,6 @@ export const cardTwoInfo = {
       "A retail platform that allows users to search Amazon Products using Rapid API",
     img: require("../../Gifs/RetailTherapy.gif"),
     alt: "Looping gif of Express-Gym website",
-    website: "https://mitchell-est-robbins.github.io/Project1-TheAppenders/",
+    website: "https://mitchell-est-robbins.github.io/Retail-Therapy/",
     repo: "https://github.com/AlexisGonzalez07/Retail-Therapy",
   };
