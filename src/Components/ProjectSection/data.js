@@ -12,13 +12,14 @@ export const cardTwoInfo = {
     title: "Plant Buddy",
     description: "React, MongoDB, GraphQL",
     line:
-      "A social platform for plant lovers that allows users to write blog posts and upkeep plant health built on the MERN stack",
+      "A social platform for plant lovers that allows users to write blog posts and upkeep plant health built on the MERN stack. Use credentials 'nicoledodge5@gmail.com' and 'password' to sign in and view your gardern!",
     img: require("../../Gifs/planthub.gif"),
     alt: "Looping gif of Plant-Buddy website",
     website: "https://planth.herokuapp.com/",
     repo: "https://github.com/AlexisGonzalez07/PlantHub",
   };
   
+
   export const cardThreeInfo = {
     title: "Express Gym",
     description: "Handlebars, MySQL, Express.js",
