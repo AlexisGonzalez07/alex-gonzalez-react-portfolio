@@ -1,7 +1,7 @@
 import React from "react";
 import { ProjectWrapper, SectionContainer, SectionHeader, SectionHeaderWrap } from "./ProjectElements";
 import { ProjectCard } from "./ProjectCard";
-import { cardOneInfo, cardTwoInfo, cardThreeInfo, cardFourInfo } from "./data";
+import { cardTwoInfo, cardThreeInfo, cardFourInfo } from "./data";
 export const ProjectSection = () => {
   return (
     <ProjectWrapper id="projects">
