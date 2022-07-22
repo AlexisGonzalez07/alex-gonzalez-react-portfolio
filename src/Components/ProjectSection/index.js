@@ -9,7 +9,7 @@ export const ProjectSection = () => {
       <SectionHeaderWrap>
         <SectionHeader>Projects</SectionHeader>
       </SectionHeaderWrap>
-      <ProjectCard {...cardOneInfo}/>
+      {/* <ProjectCard {...cardOneInfo}/> */}
       <ProjectCard {...cardTwoInfo}/>
       <ProjectCard {...cardThreeInfo}/>
       <ProjectCard {...cardFourInfo}/>
