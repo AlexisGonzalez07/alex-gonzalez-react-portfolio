@@ -20,9 +20,7 @@ export const ProjectCard = ({
   website,
   repo,
 }) => {
-  console.log({ website });
-  let web = website;
-  console.log(web);
+
   return (
     <Card>
       <ImageWrapper>
