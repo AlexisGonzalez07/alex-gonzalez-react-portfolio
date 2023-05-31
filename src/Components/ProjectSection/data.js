@@ -1,43 +1,31 @@
-export const cardOneInfo = {
-  title: "Sudoku Torture",
-  description: "Python, OOP",
-  line: "An object-oriented approach to solving a Sudoku Puzzle that uses three algorithms to find the most efficient solution",
-  img: require("../../Gifs/NoteTakerApp.gif"),
-  alt: "A peek at the Source Code for the solver",
-  website: "https://github.com/AlexisGonzalez07/SudokuTorture",
-  repo: "https://github.com/AlexisGonzalez07/SudokuTorture",
-}
-
-export const cardTwoInfo = {
-    title: "Plant Buddy",
-    description: "React, MongoDB, GraphQL",
-    line:
-      "A social platform for plant lovers that allows users to write blog posts and upkeep plant health built on the MERN stack. Use credentials 'nicoledodge5@gmail.com' and 'password' to sign in and view your gardern!",
-    img: require("../../Gifs/planthub.gif"),
+const projectData = [
+  {
+    title: "PlantHub Remake",
+    description: "React, MongoDB, GraphQL, AWS S3",
+    line: `A social platform for plants to be able to upload an image of their plant, get plant care recommendations, and save/manage their plant's health. Use credentials "myplanthub@gmail.com" and "password" to view a full dashboard on 27inch monitors, and a condensed dashboard on regular desktop/mobile views. Please, only take a look at the MyGarden Page, which is the page I designed.`,
+    img: require("../../Gifs/PlantHubgif.gif"),
     alt: "Looping gif of Plant-Buddy website",
-    website: "https://planth.herokuapp.com/",
-    repo: "https://github.com/AlexisGonzalez07/PlantHub",
-  };
-  
+    website: "https://plant-hub-refactor-client.vercel.app/",
+    repo: "https://github.com/AlexisGonzalez07/PlantHubRefactor",
+  },
+  {
+    title: "Sudoku Torture",
+    description: "Python, OOP",
+    line: "An object-oriented approach to solving a Sudoku Puzzle that uses three algorithms to find the most efficient solution",
+    img: require("../../Gifs/sudoku.gif"),
+    alt: "A peek at the Source Code for the solver",
+    website: "https://github.com/AlexisGonzalez07/SudokuTorture",
+    repo: "https://github.com/AlexisGonzalez07/SudokuTorture",
+  },
+  {
+    title: `Norma's Creations`,
+    description: "TypeScript, React Native, Expo",
+    line: "An ecommerce app built on React Native that uses context to provide/modify state globally. App is in development, but App Navigation, Modal development, item sorting/filtering, and cart management are complete.",
+    img: require("../../Gifs/NormaCreationsDemo-min.gif"),
+    alt: "Looping gif of Norma's Creations App",
+    website: "https://github.com/AlexisGonzalez07/NormaCreations/tree/main",
+    repo: "https://github.com/AlexisGonzalez07/NormaCreations/tree/main",
+  },
+];
 
-  export const cardThreeInfo = {
-    title: "Express Gym",
-    description: "Handlebars, MySQL, Express.js",
-    line:
-      "A fitness platform that allows users to create accounts, login/logout, upgrade memberships, and book classes ",
-    img: require("../../Gifs/ExpressGym.gif"),
-    alt: "Looping gif of Express-Gym website",
-    website: "https://express-gym.herokuapp.com/",
-    repo: "https://github.com/AlexisGonzalez07/express.gym",
-  };
-  
-  export const cardFourInfo = {
-    title: "Retail Therapy",
-    description: "HTML, Javascript, API",
-    line:
-      "A retail platform that allows users to search Amazon Products using Rapid API",
-    img: require("../../Gifs/RetailTherapy.gif"),
-    alt: "Looping gif of Express-Gym website",
-    website: "https://mitchell-est-robbins.github.io/Retail-Therapy/",
-    repo: "https://github.com/AlexisGonzalez07/Retail-Therapy",
-  };
+export default projectData

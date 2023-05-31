@@ -1,7 +1,7 @@
 import React from "react";
 import { ProjectWrapper, SectionContainer, SectionHeader, SectionHeaderWrap } from "./ProjectElements";
 import { ProjectCard } from "./ProjectCard";
-import { cardOneInfo, cardTwoInfo, cardThreeInfo, cardFourInfo } from "./data";
+import projectData from "./data";
 export const ProjectSection = () => {
   return (
     <ProjectWrapper id="projects">
@@ -9,10 +9,9 @@ export const ProjectSection = () => {
       <SectionHeaderWrap>
         <SectionHeader>Projects</SectionHeader>
       </SectionHeaderWrap>
-      <ProjectCard {...cardOneInfo}/>
-      <ProjectCard {...cardTwoInfo}/>
-      <ProjectCard {...cardThreeInfo}/>
-      <ProjectCard {...cardFourInfo}/>
+      {projectData.map(project => (<div key={project.title}>
+        <ProjectCard {...project}/>
+      </div>))}
       </SectionContainer>
     </ProjectWrapper>
   );
