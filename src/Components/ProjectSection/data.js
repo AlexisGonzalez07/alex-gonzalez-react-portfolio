@@ -1,6 +1,15 @@
 const projectData = [
   {
-    title: "PlantHub Remake",
+    title: "PlantHub Refactor",
+    description: "TypeScript, Next.js, AWS DynamoDB, PWA",
+    line: `A Next.js implementation of PlantHub, this time as a PWA with a redesigned user interface for a fluid user story`,
+    img: require("../../Gifs/homegif.gif"),
+    alt: "Looping gif of Plant-Hub's recreated website",
+    website: "https://next-dynamo-plant-hub.vercel.app/",
+    repo: "https://github.com/AlexisGonzalez07/Next-Dynamo-PlantHub",
+  },
+  {
+    title: "PlantHub Refactor",
     description: "React, MongoDB, GraphQL, AWS S3",
     line: `A social platform for plants to be able to upload an image of their plant, get plant care recommendations, and save/manage their plant's health. Use credentials "myplanthub@gmail.com" and "password" to view a full dashboard on 27inch monitors, and a condensed dashboard on regular desktop/mobile views. Please, only take a look at the MyGarden Page, which is the page I designed.`,
     img: require("../../Gifs/PlantHubgif.gif"),

@@ -32,7 +32,7 @@ const toggleHome =() => {
         </NavLink>
       </NavMenu>
       <ResumeWrapper> 
-        <a href='https://drive.google.com/file/d/1ByIZg3R-SK5L1g2QliceGjw29yrnlXXI/view?usp=sharing' target='_blank' rel="noopener noreferrer" style={{all:'none'}}>     
+        <a href='https://drive.google.com/file/d/1XvAsWwDqhyQ1qzI2BPXFqMo_MkRNxgal/view?usp=sharing' target='_blank' rel="noopener noreferrer" style={{all:'none'}}>     
         <ResumeBtn>Resume</ResumeBtn>
         </a>
       </ResumeWrapper>
